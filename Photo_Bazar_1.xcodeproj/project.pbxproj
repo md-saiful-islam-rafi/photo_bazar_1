@@ -18,6 +18,7 @@
 		378B3D9723DECF74004BA637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378B3D9523DECF74004BA637 /* Main.storyboard */; };
 		378B3D9C23DECF7C004BA637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378B3D9A23DECF7C004BA637 /* LaunchScreen.storyboard */; };
 		378B3DA223DECFBA004BA637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3701860723DD6FAF00B214FE /* Assets.xcassets */; };
+		378B3DA423DEEAF9004BA637 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 378B3DA323DEEAF9004BA637 /* GoogleService-Info.plist */; };
 		D314CCA9AA0A2C15982AEBF6 /* Pods_Photo_Bazar_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0686E1FBAE9D32874C89CED3 /* Pods_Photo_Bazar_1.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		378B3D9623DECF74004BA637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		378B3D9B23DECF7C004BA637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		378B3D9D23DECF7C004BA637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378B3DA323DEEAF9004BA637 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		85B068BFEA6F6973D07071C3 /* Pods-Photo_Bazar_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo_Bazar_1.debug.xcconfig"; path = "Target Support Files/Pods-Photo_Bazar_1/Pods-Photo_Bazar_1.debug.xcconfig"; sourceTree = "<group>"; };
 		954A5ED35630875E5236BA4B /* Pods-Photo_Bazar_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo_Bazar_1.release.xcconfig"; path = "Target Support Files/Pods-Photo_Bazar_1/Pods-Photo_Bazar_1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 				378B3D9523DECF74004BA637 /* Main.storyboard */,
 				378B3D9A23DECF7C004BA637 /* LaunchScreen.storyboard */,
 				378B3D9D23DECF7C004BA637 /* Info.plist */,
+				378B3DA323DEEAF9004BA637 /* GoogleService-Info.plist */,
 			);
 			path = Photo_Bazar_1_Admin;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			files = (
 				378B3D9C23DECF7C004BA637 /* LaunchScreen.storyboard in Resources */,
 				378B3DA223DECFBA004BA637 /* Assets.xcassets in Resources */,
+				378B3DA423DEEAF9004BA637 /* GoogleService-Info.plist in Resources */,
 				378B3D9723DECF74004BA637 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
