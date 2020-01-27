@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>644812793681-utpksmsr6shtvort92opoeg8avas1gbq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.644812793681-utpksmsr6shtvort92opoeg8avas1gbq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQqu6AVR3qWawdq4-XXPxC_526J1oQlT4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>644812793681</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>iosProject.Photo-Bazar-1</string>
+	<key>PROJECT_ID</key>
+	<string>photo-bazar-1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>photo-bazar-1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:644812793681:ios:170f054359474bbc421570</string>
+	<key>DATABASE_URL</key>
+	<string>https://photo-bazar-1.firebaseio.com</string>
+</dict>
+</plist>

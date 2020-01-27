@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,17 @@
 		3701860623DD6FA900B214FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3701860423DD6FA900B214FE /* Main.storyboard */; };
 		3701860823DD6FB000B214FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3701860723DD6FAF00B214FE /* Assets.xcassets */; };
 		3701860B23DD6FB000B214FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3701860923DD6FB000B214FE /* LaunchScreen.storyboard */; };
+		3701861323DD712300B214FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3701861223DD712300B214FE /* GoogleService-Info.plist */; };
+		378B3D9223DECF74004BA637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B3D9123DECF74004BA637 /* AppDelegate.swift */; };
+		378B3D9423DECF74004BA637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B3D9323DECF74004BA637 /* ViewController.swift */; };
+		378B3D9723DECF74004BA637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378B3D9523DECF74004BA637 /* Main.storyboard */; };
+		378B3D9C23DECF7C004BA637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378B3D9A23DECF7C004BA637 /* LaunchScreen.storyboard */; };
+		378B3DA223DECFBA004BA637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3701860723DD6FAF00B214FE /* Assets.xcassets */; };
+		D314CCA9AA0A2C15982AEBF6 /* Pods_Photo_Bazar_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0686E1FBAE9D32874C89CED3 /* Pods_Photo_Bazar_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0686E1FBAE9D32874C89CED3 /* Pods_Photo_Bazar_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photo_Bazar_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		370185FD23DD6FA900B214FE /* Photo_Bazar_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo_Bazar_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3701860023DD6FA900B214FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3701860223DD6FA900B214FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +30,27 @@
 		3701860723DD6FAF00B214FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3701860A23DD6FB000B214FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3701860C23DD6FB000B214FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3701861223DD712300B214FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		378B3D8F23DECF74004BA637 /* Photo_Bazar_1_Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo_Bazar_1_Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378B3D9123DECF74004BA637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378B3D9323DECF74004BA637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		378B3D9623DECF74004BA637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378B3D9B23DECF7C004BA637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378B3D9D23DECF7C004BA637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B068BFEA6F6973D07071C3 /* Pods-Photo_Bazar_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo_Bazar_1.debug.xcconfig"; path = "Target Support Files/Pods-Photo_Bazar_1/Pods-Photo_Bazar_1.debug.xcconfig"; sourceTree = "<group>"; };
+		954A5ED35630875E5236BA4B /* Pods-Photo_Bazar_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo_Bazar_1.release.xcconfig"; path = "Target Support Files/Pods-Photo_Bazar_1/Pods-Photo_Bazar_1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		370185FA23DD6FA900B214FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D314CCA9AA0A2C15982AEBF6 /* Pods_Photo_Bazar_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378B3D8C23DECF74004BA637 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,8 +63,12 @@
 		370185F423DD6FA900B214FE = {
 			isa = PBXGroup;
 			children = (
+				378B3DA123DECF93004BA637 /* Shared Assets */,
 				370185FF23DD6FA900B214FE /* Photo_Bazar_1 */,
+				378B3D9023DECF74004BA637 /* Photo_Bazar_1_Admin */,
 				370185FE23DD6FA900B214FE /* Products */,
+				CE6B71EC6709CF48CAC0F154 /* Pods */,
+				DA849F3241D79A823E6D56E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				370185FD23DD6FA900B214FE /* Photo_Bazar_1.app */,
+				378B3D8F23DECF74004BA637 /* Photo_Bazar_1_Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +87,48 @@
 				3701860023DD6FA900B214FE /* AppDelegate.swift */,
 				3701860223DD6FA900B214FE /* ViewController.swift */,
 				3701860423DD6FA900B214FE /* Main.storyboard */,
-				3701860723DD6FAF00B214FE /* Assets.xcassets */,
 				3701860923DD6FB000B214FE /* LaunchScreen.storyboard */,
 				3701860C23DD6FB000B214FE /* Info.plist */,
+				3701861223DD712300B214FE /* GoogleService-Info.plist */,
 			);
 			path = Photo_Bazar_1;
+			sourceTree = "<group>";
+		};
+		378B3D9023DECF74004BA637 /* Photo_Bazar_1_Admin */ = {
+			isa = PBXGroup;
+			children = (
+				378B3D9123DECF74004BA637 /* AppDelegate.swift */,
+				378B3D9323DECF74004BA637 /* ViewController.swift */,
+				378B3D9523DECF74004BA637 /* Main.storyboard */,
+				378B3D9A23DECF7C004BA637 /* LaunchScreen.storyboard */,
+				378B3D9D23DECF7C004BA637 /* Info.plist */,
+			);
+			path = Photo_Bazar_1_Admin;
+			sourceTree = "<group>";
+		};
+		378B3DA123DECF93004BA637 /* Shared Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3701860723DD6FAF00B214FE /* Assets.xcassets */,
+			);
+			path = "Shared Assets";
+			sourceTree = "<group>";
+		};
+		CE6B71EC6709CF48CAC0F154 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B068BFEA6F6973D07071C3 /* Pods-Photo_Bazar_1.debug.xcconfig */,
+				954A5ED35630875E5236BA4B /* Pods-Photo_Bazar_1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA849F3241D79A823E6D56E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0686E1FBAE9D32874C89CED3 /* Pods_Photo_Bazar_1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3701860F23DD6FB000B214FE /* Build configuration list for PBXNativeTarget "Photo_Bazar_1" */;
 			buildPhases = (
+				C7FFA70407FEA948A2D24AAF /* [CP] Check Pods Manifest.lock */,
 				370185F923DD6FA900B214FE /* Sources */,
 				370185FA23DD6FA900B214FE /* Frameworks */,
 				370185FB23DD6FA900B214FE /* Resources */,
+				80A1C4B5847E6726B5C6E9D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,6 +151,23 @@
 			name = Photo_Bazar_1;
 			productName = Photo_Bazar_1;
 			productReference = 370185FD23DD6FA900B214FE /* Photo_Bazar_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378B3D8E23DECF74004BA637 /* Photo_Bazar_1_Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378B3DA023DECF7C004BA637 /* Build configuration list for PBXNativeTarget "Photo_Bazar_1_Admin" */;
+			buildPhases = (
+				378B3D8B23DECF74004BA637 /* Sources */,
+				378B3D8C23DECF74004BA637 /* Frameworks */,
+				378B3D8D23DECF74004BA637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photo_Bazar_1_Admin;
+			productName = Photo_Bazar_1_Admin;
+			productReference = 378B3D8F23DECF74004BA637 /* Photo_Bazar_1_Admin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,6 +181,9 @@
 				ORGANIZATIONNAME = "Md. Saiful Islam";
 				TargetAttributes = {
 					370185FC23DD6FA900B214FE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					378B3D8E23DECF74004BA637 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +202,7 @@
 			projectRoot = "";
 			targets = (
 				370185FC23DD6FA900B214FE /* Photo_Bazar_1 */,
+				378B3D8E23DECF74004BA637 /* Photo_Bazar_1_Admin */,
 			);
 		};
 /* End PBXProject section */
@@ -123,12 +213,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				3701860B23DD6FB000B214FE /* LaunchScreen.storyboard in Resources */,
+				3701861323DD712300B214FE /* GoogleService-Info.plist in Resources */,
 				3701860823DD6FB000B214FE /* Assets.xcassets in Resources */,
 				3701860623DD6FA900B214FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		378B3D8D23DECF74004BA637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378B3D9C23DECF7C004BA637 /* LaunchScreen.storyboard in Resources */,
+				378B3DA223DECFBA004BA637 /* Assets.xcassets in Resources */,
+				378B3D9723DECF74004BA637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80A1C4B5847E6726B5C6E9D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photo_Bazar_1/Pods-Photo_Bazar_1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photo_Bazar_1/Pods-Photo_Bazar_1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Photo_Bazar_1/Pods-Photo_Bazar_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FFA70407FEA948A2D24AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photo_Bazar_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		370185F923DD6FA900B214FE /* Sources */ = {
@@ -137,6 +280,15 @@
 			files = (
 				3701860323DD6FA900B214FE /* ViewController.swift in Sources */,
 				3701860123DD6FA900B214FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378B3D8B23DECF74004BA637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378B3D9423DECF74004BA637 /* ViewController.swift in Sources */,
+				378B3D9223DECF74004BA637 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +307,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3701860A23DD6FB000B214FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		378B3D9523DECF74004BA637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378B3D9623DECF74004BA637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378B3D9A23DECF7C004BA637 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378B3D9B23DECF7C004BA637 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -280,6 +448,7 @@
 		};
 		3701861023DD6FB000B214FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B068BFEA6F6973D07071C3 /* Pods-Photo_Bazar_1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +466,7 @@
 		};
 		3701861123DD6FB000B214FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954A5ED35630875E5236BA4B /* Pods-Photo_Bazar_1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +476,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "iosProject.Photo-Bazar-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		378B3D9E23DECF7C004BA637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Bazar_1_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosProject.Photo-Bazar-1-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378B3D9F23DECF7C004BA637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Bazar_1_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosProject.Photo-Bazar-1-Admin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,6 +533,15 @@
 			buildConfigurations = (
 				3701861023DD6FB000B214FE /* Debug */,
 				3701861123DD6FB000B214FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378B3DA023DECF7C004BA637 /* Build configuration list for PBXNativeTarget "Photo_Bazar_1_Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378B3D9E23DECF7C004BA637 /* Debug */,
+				378B3D9F23DECF7C004BA637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
